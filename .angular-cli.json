@@ -25,6 +25,7 @@
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
+        "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       }
@@ -56,6 +57,11 @@
   },
   "defaults": {
     "styleExt": "css",
-    "component": {}
+    "prefixInterfaces": false,
+    "component": {},
+    "inline": {
+      "style": false,
+      "template": false
+    }
   }
 }
