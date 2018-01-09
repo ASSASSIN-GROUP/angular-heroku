@@ -1,6 +1,15 @@
+body {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
 .news {
   text-align: center;
   margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
 }
 
 .body {
